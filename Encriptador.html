@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="darkmode.css">
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <img class="logo" src="img/Logo.png" alt="Logo de Alura">
+            </div>
+            <div class="titulo">
+                <p>Challenge Encriptador</p>
+            </div>
+            <div class="slider">
+                <input type="checkbox" id="darkmode-slider">
+                <label for="darkmode-slider" class="slider_label">
+            </div>
+        </header>
+        <main>
+            <section class="seccion1">
+                <div class="entrada">
+                    <textarea type="text" id="ingreso" placeholder="Ingrese el texto aquí" autofocus></textarea>
+                </div>
+                <div class="info">
+                    <p><i class="fa fa-exclamation-circle"></i>  Solo letras minúsculas y sin acentos</p>        
+                </div>
+                <div class="botones">
+                    <button class="boton" id="encriptador" onclick="encriptar()">Encriptar</button>
+                    <button class="boton" id="desencriptador" onclick="desencriptar()">Desencriptar</button>
+                    <button class="boton" id="limpiador" onclick="limpiar()">Limpiar</button>
+                </div>
+            </section>
+            <section class="seccion2">
+                <div class="area_salida">
+                    <textarea type="text" id="texto_salida" readonly="true"></textarea>
+                    <img src="img/Persona.jpg" alt="Persona simulando búsqueda" class="img_persona">
+                    <section class="mensaje_respuesta">
+                        <p class="no_encontrado">Ningún mensaje fue encontrado</p>
+                        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </section>
+                    <button class="boton" id="copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+        </main>    
+    </body>
+
+    <footer>
+        <p>Realizado por Luis Alonso Rivera del Carpio Escobar.</p>
+        <p></p>&copy; Copyright Alura - 2023</p>
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+</html>
