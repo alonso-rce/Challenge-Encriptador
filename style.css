@@ -136,7 +136,7 @@ body.dark .info{
     padding-right: 3.5%;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
-    grid-gap: 15px;
+    grid-gap: 10px;
 }
 
 .boton{
