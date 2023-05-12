@@ -289,10 +289,10 @@ body.dark footer{
         height: 55%;
     }
     .seccion2{
-        width: 100%;
         padding: 0 5%;
         margin-top: 2.5rem;
         height: 18rem;
+        width: 100%;
     }
     .img_persona{
         display: none;
