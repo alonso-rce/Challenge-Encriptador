@@ -302,6 +302,7 @@ body.dark footer{
     }
     .botones{
         grid-template-columns: 1fr;
+        padding: 0 3%;
     }
     .info{
         bottom: 175px;
